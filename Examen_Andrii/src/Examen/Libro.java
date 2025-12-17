@@ -7,5 +7,17 @@ public class Libro {
 	private String isbn;
 	
 	private boolean prestado;
+
+	public Libro(String titulo, String autor, String isbn, boolean prestado) {
+		super();
+		this.titulo = titulo;
+		this.autor = autor;
+		this.isbn = isbn;
+		this.prestado = prestado;
+	}
+	
+	
+	
+	
 	
 }
